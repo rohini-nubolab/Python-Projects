@@ -1,2 +1,1 @@
-# hello-world
-Its my first github
+Python Project
