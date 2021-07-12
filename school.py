@@ -58,14 +58,12 @@ class Registration:
             words = line.split()
             if words[0] == sid:
                flag = True
-
             else:
                 new_data = new_data + line
         if not flag:
-           print("record not found")
+           print("Student record not found")
         else:
             print("Deleted", sid)
-
         file.close()
         print(new_data)
         file = open("School.txt", 'w')
